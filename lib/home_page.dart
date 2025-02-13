@@ -35,8 +35,8 @@ class _HomePageState extends State<HomePage> {
               : Container(),
           Expanded(
             child: InAppWebView(
-              initialUrlRequest:
-                  URLRequest(url: WebUri("https://randomchat.papergirl.site")),
+              initialUrlRequest: URLRequest(
+                  url: WebUri("https://randomchat.toktoktalk.com?debug=true")),
               initialSettings: InAppWebViewSettings(
                 mediaPlaybackRequiresUserGesture: false,
                 allowsInlineMediaPlayback: true,
